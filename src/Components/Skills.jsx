@@ -22,7 +22,7 @@ const Skills = () => {
             className="max-w-5xl mx-auto py-20 px-4"
         >
             <h2 className="text-4xl font-bold text-center mb-10">Skills</h2>
-            <div className="grid md:grid-cols-3 gap-8">
+            <div className="grid md:grid-cols-3 gap-8 text-black">
                 {skillCategories.map(({ category, skills }) => (
                     <div
                         key={category}

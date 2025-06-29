@@ -1,0 +1,45 @@
+[
+    {
+        "id": 1,
+        "name": "HotelBooking Website",
+        "image": "https://i.ibb.co/wZhdgfZ0/hotel.jpg",
+        "techStack": [
+            "React",
+            "Tailwind CSS"
+        ],
+        "description": "Professional portfolio website built with React and Tailwind CSS.",
+        "liveLink": "https://ubiquitous-tanuki-865f96.netlify.app/",
+        "githubLink": "https://github.com/paul-96-shimu/hotelbokking",
+        "challenges": "Responsive design and smooth scroll implementation were challenging.",
+        "improvements": "Plan to add blog section and more projects in the future."
+    },
+    {
+        "id": 2,
+        "name": "Bill Management Website",
+        "image": "https://i.ibb.co/212tH0cy/bill.jpg",
+        "techStack": [
+            "React",
+            "Node.js",
+            "MongoDB"
+        ],
+        "description": "An online shopping platform with user authentication.",
+        "liveLink": "https://app.netlify.com/teams/shimupaul96/projects?page=2",
+        "githubLink": "https://github.com/paul-96-shimu/bill-management",
+        "challenges": "Handling payment gateway and user authentication was tough.",
+        "improvements": "Planning to add more payment options and improve UI."
+    },
+    {
+        "id": 3,
+        "name": "Freelancer Task website",
+        "image": "https://i.ibb.co/7t0tMKYf/freelancer.jpg",
+        "techStack": [
+            "React",
+            "Firebase"
+        ],
+        "description": "A blogging platform with real-time data sync.",
+        "liveLink": "https://app.netlify.com/projects/leafy-concha-531189/overview",
+        "githubLink": "https://github.com/paul-96-shimu/freelancer-task-clinetside",
+        "challenges": "Implementing real-time synchronization was challenging.",
+        "improvements": "Planning to add comment system and dark mode."
+    }
+]

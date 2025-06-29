@@ -15,6 +15,7 @@ import Education from './Components/Layouts/Education.jsx';
 
 import Project from './Components/Layouts/Project.jsx';
 import Contact from './Components/Layouts/Contact.jsx';
+import ProjectDetails from './Components/Layouts/ProjectDetails.jsx';
 
 const router = createBrowserRouter([
   {
@@ -27,22 +28,11 @@ const router = createBrowserRouter([
         Component: Home
 
       },
-      {
-        path: "about",
-        Component: Abouts
-      },
-      {
-        path: "skills",
-        Component: Skills
-      },
-      {
-        path: "education",
-        Component: Education
-      },
+
 
       {
-        path: "projects",
-        Component: Project
+        path: "projectsdetails/:id",
+        element: <ProjectDetails></ProjectDetails>
       },
       {
         path: "contact",
