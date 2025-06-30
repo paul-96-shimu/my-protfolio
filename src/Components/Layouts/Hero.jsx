@@ -32,7 +32,7 @@ const Hero = () => {
             </div>
 
             <a
-                href="/resume.pdf"
+                href="/c:\Users\Shimu Paul\Downloads\Resume of Shimu Paul.docx.pdf"
                 download
                 className="mt-6 inline-flex items-center px-6 py-2 bg-white text-blue-900 font-semibold rounded-lg shadow hover:scale-105 transition mt-6"
             >
