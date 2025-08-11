@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="320" height="320" viewBox="0 0 320 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Shimu Paul hex ligature logo">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2661FF"/>
+      <stop offset="1" stop-color="#00E0FF"/>
+    </linearGradient>
+  </defs>
+  <!-- Hex frame -->
+  <path d="M160 14 L279 80 L279 240 L160 306 L41 240 L41 80 Z"
+        fill="none" stroke="currentColor" stroke-width="14" stroke-linejoin="round"/>
+  <!-- Interlocking S (wave) -->
+  <path d="M110 118 C110 92 160 92 175 106 C190 120 178 135 155 141
+           C125 149 110 160 110 182 C110 218 170 218 188 198"
+        fill="none" stroke="currentColor" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- P stem -->
+  <path d="M205 104 L205 228" stroke="currentColor" stroke-width="18" stroke-linecap="round"/>
+  <!-- P bowl (negative feel) -->
+  <path d="M205 104 H232 A34 34 0 0 1 232 172 H205" fill="none" stroke="currentColor" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Accent notch -->
+  <path d="M279 80 L257 92 L257 68 Z" fill="url(#g1)"/>
+</svg>
