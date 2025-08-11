@@ -25,7 +25,11 @@ const Project = () => {
 
                 <div className="grid md:grid-cols-3 gap-10">
                     {projects.map((project) => (
-                        <div key={project.id} className="bg-white rounded-lg shadow-md overflow-hidden">
+                        <div key={project.id} 
+                        
+                          className="bg-white rounded-lg shadow-md overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-2xl">
+
+
                             <img
                                 src={project.image}
                                 alt={project.name}
@@ -34,7 +38,7 @@ const Project = () => {
                             <div className="p-4">
                                 <h3 className="text-2xl font-semibold text-black">{project.name}</h3>
                                 <Link to={`/projectsdetails/${project.id}`}>
-                                    <button className="mt-4 text-blue-700 hover:underline">
+                                    <button className=" btn  btn-outline btn-primary mt-4">
                                         View More / Details
                                     </button>
                                 </Link>

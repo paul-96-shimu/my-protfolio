@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useParams } from "react-router";
+import { Link, useParams } from "react-router";
 
 const ProjectDetails = () => {
     const { id } = useParams();
@@ -25,9 +25,11 @@ const ProjectDetails = () => {
             <p><strong>Challenges:</strong> {project.challenges}</p>
             <p><strong>Improvements:</strong> {project.improvements}</p>
             <div className="mt-4 flex gap-4 ">
-                <a href={project.liveLink} target="_blank" className="text-blue-600 underline">Live</a>
-                <a href={project.githubLink} target="_blank" className="text-blue-600 underline">GitHub</a>
+                <button className="btn"><a href={project.liveLink} target="_blank" className="text-blue-600 underline">Live</a></button>
+                <button className="btn"><a href={project.githubLink} target="_blank" className="text-blue-600 underline">GitHub</a></button>
             </div>
+
+           <Link to="/"> <button className="btn btn-outline mt-6">Back To Home page</button></Link>
         </div>
     );
 };

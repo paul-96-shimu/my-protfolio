@@ -39,6 +39,16 @@ const router = createBrowserRouter([
         Component: Contact
       },
 
+      {
+        path: "#projects",
+        Component: Project
+      },
+
+        {
+        path: "#projects",
+        Component: Skills
+      },
+
     ]
 
   },

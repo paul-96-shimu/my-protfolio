@@ -8,7 +8,7 @@ const Abouts = () => {
 
 
 
-        <section className="max-w-3xl mx-auto bg-[#FFF8F3] shadow-md border border-gray-300 rounded p-20 text-center mt-27">
+        <section id="about" className="max-w-3xl mx-auto bg-[#FFF8F3] shadow-md border border-gray-300 rounded p-20 text-center mt-30 ">
             {/* Title */}
             <h2 className="text-5xl font-bold mb-8">About Me</h2>
 

@@ -7,9 +7,9 @@ const Hero = () => {
     return (
         <section
             id="hero"
-            className="py-27 mt-27 bg-[#FFF3EA]"
+            className=" mt-27 bg-[#FFF3EA]"
         >
-            <div className="flex flex-col-reverse md:flex-row items-center md:justify-between gap-10 px-6  text-white  container mx-auto p-12">
+            <div className="flex flex-col-reverse md:flex-row items-center md:justify-between gap-10 px-6  text-white  container mx-auto ">
 
                 {/* Left Side - Text & Buttons */}
                 <div className="text-center md:text-left md:w-1/2">

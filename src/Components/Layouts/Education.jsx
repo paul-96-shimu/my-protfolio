@@ -35,7 +35,7 @@ const Education = () => {
               <h4 className="font-semibold text-xl">Frontend Developer Course (6 months)</h4>
               <p>Online / Self-paced</p>
               <p>Pograming Hero</p>
-              <p>Duration: Jan 2024 - Jun 2024</p>
+              <p>Duration: Jan 2025 - July 2025</p>
               <p>
                 Completed an intensive frontend development course focusing on React, JavaScript, and modern web technologies.
               </p>
