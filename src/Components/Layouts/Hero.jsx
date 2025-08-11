@@ -1,5 +1,7 @@
 import React from 'react';
 import { FaDownload, FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+
+
 import MotionTitle from '../MotionTitle';
 
 
@@ -14,8 +16,9 @@ const Hero = () => {
                 {/* Left Side - Text & Buttons */}
                 <div className="text-center md:text-left md:w-1/2">
                     <h1 className="text-3xl md:text-5xl font-bold">
-                        <span className='text-black'>Hello I’m</span> <span className="text-[#FF6B00]">Shimu Paul</span>
+                        <span className='text-black'>Hello ✋ I’m</span>  <span className="text-[#FF6B00]">Shimu Paul</span>
                     </h1>
+                      
                     <p className="text-3xl md:text-5xl font-bold mt-2 text-black">
                         {/* A Full Stack Web Developer */}
 
