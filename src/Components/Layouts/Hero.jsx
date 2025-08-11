@@ -48,7 +48,7 @@ const Hero = () => {
                     {/* Buttons */}
                     <div className="mt-6 flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
                         <a
-                            href="/c:/Users/Shimu Paul/Downloads/Resume of Shimu Paul.docx.pdf"
+                            href="https://drive.google.com/file/d/1nlfZmfrXLd-guxz4tc5pis_iA_asRJEA/view?usp=drive_link"
                             download
                             className="bg-[#FF6B00] inline-flex items-center px-6 py-2 text-white font-semibold rounded-lg shadow hover:scale-105 transition"
                         >
