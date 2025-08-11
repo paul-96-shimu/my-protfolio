@@ -24,6 +24,9 @@ const Navbar = () => {
           <a href="#skills" className="hover:text-yellow-400">Skills</a>
           <a href="#education" className="hover:text-yellow-400">Education</a>
           <a href="#projects" className="hover:text-yellow-400">Projects</a>
+
+
+          
         </div>
 
         {/* Right - Contact */}

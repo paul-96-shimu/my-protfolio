@@ -28,7 +28,11 @@ const Contact = () => {
 
     return (
         <section id="contact" className="bg-gray-100 py-20 px-6">
+
+            <h1 className='text-center text-7xl font-bold mb-10'>Get in Touch</h1>
             <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
+
+               
                 {/* Left Side */}
                 <div className="space-y-6">
                     <h2 className="text-4xl font-bold text-blue-800">Let's Talk 👋</h2>
