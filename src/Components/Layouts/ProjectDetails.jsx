@@ -6,7 +6,7 @@ const ProjectDetails = () => {
     const [project, setProject] = useState(null);
 
     useEffect(() => {
-        fetch("/public/web.json")
+        fetch("/web.json")
             .then((res) => res.json())
             .then((data) => {
                 const selected = data.find(p => p.id === parseInt(id));
