@@ -4,7 +4,7 @@ import { FaDownload, FaFacebookF, FaGithub , FaLinkedinIn } from "react-icons/fa
 
 import MotionTitle from '../MotionTitle';
 
-import moduleName from '../../assets/Untitled design.png'
+import moduleName from '../../assets/shimupaul.png'
 import moduleName2 from "../../assets/Frame.svg";
 
 

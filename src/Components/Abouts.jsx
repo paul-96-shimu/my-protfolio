@@ -1,5 +1,5 @@
 import React from "react";
-import moduleName from "../assets/Untitled design.png";
+import moduleName from "../assets/shimupaul.png";
 import moduleName1 from "../assets/check2-square 3.svg";
 import moduleName2 from "../assets/Frame.svg";
 
