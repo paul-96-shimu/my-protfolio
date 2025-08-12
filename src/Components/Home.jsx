@@ -11,11 +11,11 @@ import BackgroundMotion from './BackgroundMotion';
 
 const Home = () => {
     return (
-        <div className="relative">
+        <div className="">
 
-             <div className="absolute inset-0 -z-10">
+             {/* <div className="absolute inset-0 -z-10">
                 <BackgroundMotion />
-            </div>
+            </div> */}
 
           
             <Hero></Hero>

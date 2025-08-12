@@ -1,25 +1,29 @@
 import React from 'react';
-import { FaDownload, FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { FaDownload, FaFacebookF, FaGithub , FaLinkedinIn } from "react-icons/fa";
 
 
 import MotionTitle from '../MotionTitle';
+
+import moduleName from '../../assets/Untitled design.png'
+import moduleName2 from "../../assets/Frame.svg";
 
 
 const Hero = () => {
     return (
         <section
             id="hero"
-            className=" mt-27 bg-[#FFF3EA]"
+            className="mt-16 bg-[#FFF3EA]"
         >
-            <div className="flex flex-col-reverse md:flex-row items-center md:justify-between gap-10 px-6  text-white  container mx-auto ">
+            <div className="flex flex-col-reverse md:flex-row items-center md:justify-between gap-10 px-6  text-white  container mx-auto relative ">
 
                 {/* Left Side - Text & Buttons */}
                 <div className="text-center md:text-left md:w-1/2">
+                 <h4 className="text-base font-normal mb-4 flex items-center gap-2 text-black"> <img src={moduleName2} alt="" /> I AM Developer</h4>
                     <h1 className="text-3xl md:text-5xl font-bold">
                         <span className='text-black'>Hello ✋ I’m</span>  <span className="text-[#FF6B00]">Shimu Paul</span>
                     </h1>
                       
-                    <p className="text-3xl md:text-5xl font-bold mt-2 text-black">
+                    <p className="text-3xl md:text-5xl font-bold mt-2 text-black ">
                         {/* A Full Stack Web Developer */}
 
                         <MotionTitle></MotionTitle>
@@ -37,7 +41,7 @@ const Hero = () => {
                         </a>
                         <a href="https://twitter.com" target="_blank" rel="noreferrer" 
                            className="w-10 h-10 flex items-center justify-center rounded-full bg-white text-sky-500 shadow hover:bg-sky-500 hover:text-white transition">
-                            <FaTwitter />
+                            <FaGithub />
                         </a>
                         <a href="https://linkedin.com" target="_blank" rel="noreferrer" 
                            className="w-10 h-10 flex items-center justify-center rounded-full bg-white text-blue-700 shadow hover:bg-blue-700 hover:text-white transition">
@@ -61,8 +65,9 @@ const Hero = () => {
                 {/* Right Side - Image */}
                 <div className="flex justify-center md:justify-end md:w-1/2">
                     <img
-                        src="https://i.ibb.co/zhmhDMm1/Whats-App-Image-2025-06-25-at-8-15-21-AM.jpg"
+                        src={moduleName}
                         alt="Shimu Paul"
+                         loading="lazy"
                         className="  shadow-lg object-cover w-[707px] h-[849px]"
                     />
                 </div>
