@@ -28,7 +28,7 @@ const Education = () => {
                 <p className='text-lg text-[#606060]'>
                   B.Sc. in Electrical & Electronics Engineering (EEE)
                 </p>
-                <p className='text-lg text-[#606060]'>Passing Year: 2022</p>
+                <p className='text-lg text-[#606060]'> 2022</p>
 
               </div>
 
@@ -37,7 +37,7 @@ const Education = () => {
                 <p className='text-lg text-[#606060]'>
                   Diploma in Engineering
                 </p>
-                <p className='text-lg text-[#606060]'>Passing Year: 2017</p>
+                <p className='text-lg text-[#606060]'> 2017</p>
 
               </div>
 
@@ -62,7 +62,7 @@ const Education = () => {
             <div className="space-y-6 text-black text-lg">
               <div>
 
-                <p>Duration: Jan 2023 - Dec 2024</p>
+                <p> 2023 -  2024</p>
                 <h4 className="font-semibold text-xl"> Advance ABC Corporation</h4>
                 <p className='text-lg text-[#606060]'>Supply Chain Officer</p>
 

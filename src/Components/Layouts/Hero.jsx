@@ -14,13 +14,13 @@ const Hero = () => {
             id="hero"
             className="mt-16 bg-[#FFF3EA]"
         >
-            <div className="flex flex-col-reverse md:flex-row items-center md:justify-between gap-10 px-6  text-white  container mx-auto relative ">
+            <div className="flex flex-col-reverse md:flex-row items-center md:justify-between gap-10 px-6  text-white    relative pl-20 ml-[298px] ">
 
                 {/* Left Side - Text & Buttons */}
                 <div className="text-center md:text-left md:w-1/2">
                  <h4 className="text-base font-normal mb-4 flex items-center gap-2 text-black"> <img src={moduleName2} alt="" /> I AM Developer</h4>
-                    <h1 className="text-3xl md:text-5xl font-bold">
-                        <span className='text-black'>Hello ✋ I’m</span>  <span className="text-[#FF6B00]">Shimu Paul</span>
+                    <h1 className="text-[90px] md:text-5xl font-bold mt-4 mb-6">
+                        <span className='text-black text-[90px]'>Hello ✋ I’m</span>  <span className="text-[#FF6B00] text-[90px]">Shimu Paul</span>
                     </h1>
                       
                     <p className="text-3xl md:text-5xl font-bold mt-2 text-black ">
@@ -30,7 +30,7 @@ const Hero = () => {
                     </p>
 
                     <p className='text-[#606060] mt-10'>
-                        I’m a junior developer who loves creating web applications and improving my skills every single day.
+                        I’m a junior developer who loves creating web applications and improving  <br />my skills every single day.
                     </p>
 
                     {/* Social Links */}
@@ -50,11 +50,11 @@ const Hero = () => {
                     </div>
 
                     {/* Buttons */}
-                    <div className="mt-6 flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+                    <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center md:justify-start ">
                         <a
                             href="https://drive.google.com/file/d/1nlfZmfrXLd-guxz4tc5pis_iA_asRJEA/view?usp=drive_link"
                             download
-                            className="bg-[#FF6B00] inline-flex items-center px-6 py-2 text-white font-semibold rounded-lg shadow hover:scale-105 transition"
+                            className="bg-[#FF6B00] inline-flex items-center px-6 py-2 text-[#FFF] text-[21px] font-medium  rounded-lg shadow "
                         >
                             <FaDownload className="mr-2" />
                             Download CV
@@ -68,7 +68,7 @@ const Hero = () => {
                         src={moduleName}
                         alt="Shimu Paul"
                          loading="lazy"
-                        className="  shadow-lg object-cover w-[707px] h-[849px]"
+                        className="  object-cover w-[737px] h-[849px]"
                     />
                 </div>
             </div>

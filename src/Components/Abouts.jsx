@@ -2,6 +2,7 @@ import React from "react";
 import moduleName from "../assets/shimupaul.png";
 import moduleName1 from "../assets/check2-square 3.svg";
 import moduleName2 from "../assets/Frame.svg";
+import { FaDownload } from "react-icons/fa";
 
 const Abouts = () => {
     return (
@@ -15,7 +16,7 @@ const Abouts = () => {
                     <img
                         src={moduleName}
                         alt="Shimu Paul"
-                          loading="lazy"
+                        loading="lazy"
                         className="w-[560px] h-[768px] object-cover rounded-lg shadow-lg"
                     />
                 </div>
@@ -43,34 +44,47 @@ const Abouts = () => {
                         <div className="flex items-center gap-2 mt-4">
 
                             <img
-                            src={moduleName1}
-                            alt="Checkmark"
-                            className="w-[14px] h-[14px]"
-                        />
+                                src={moduleName1}
+                                alt="Checkmark"
+                                className="w-[14px] h-[14px]"
+                            />
 
-                        <small className="font-medium">Web Design Full stack</small>
-                        </div>
-                        
-                        <div className="flex items-center gap-2 mt-4">
-
-                            <img
-                            src={moduleName1}
-                            alt="Checkmark"
-                            className="w-[14px] h-[14px]"
-                        />
-
-                        <small className="font-medium">Frontend Web Developer</small>
+                            <small className="font-medium">Web Design Full stack</small>
                         </div>
 
                         <div className="flex items-center gap-2 mt-4">
 
                             <img
-                            src={moduleName1}
-                            alt="Checkmark"
-                            className="w-[14px] h-[14px]"
-                        />
+                                src={moduleName1}
+                                alt="Checkmark"
+                                className="w-[14px] h-[14px]"
+                            />
 
-                        <small className="font-medium">Learner Next.js</small>
+                            <small className="font-medium">Frontend Web Developer</small>
+                        </div>
+
+                        <div className="flex items-center gap-2 mt-4">
+
+                            <img
+                                src={moduleName1}
+                                alt="Checkmark"
+                                className="w-[14px] h-[14px]"
+                            />
+
+                            <small className="font-medium">Learner Next.js</small>
+
+                        </div>
+
+
+                        <div className="mt-6 flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+                            <a
+                                href="https://drive.google.com/file/d/1nlfZmfrXLd-guxz4tc5pis_iA_asRJEA/view?usp=drive_link"
+                                download
+                                className="bg-[#FF6B00] inline-flex items-center px-6 py-2 text-[#FFF] text-[21px] font-medium rounded-lg shadow "
+                            >
+                                <FaDownload className="mr-2" />
+                                Download CV
+                            </a>
                         </div>
 
                     </p>
@@ -80,7 +94,7 @@ const Abouts = () => {
             </div>
 
 
-            
+
 
         </section>
     );
